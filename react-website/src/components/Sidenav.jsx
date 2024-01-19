@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import AiOutlineMenu which is a hamburger style icon
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineHome } from "react-icons/ai";
 
 function Sidenav() {
   // state variable = nav, setNav updates the function of nav variable, initial value of nav is set to false
@@ -24,7 +24,10 @@ function Sidenav() {
         />
         {nav ? (
           <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
-            <a href="#main"></a>
+            <a
+              href="#main"
+              className="w-[75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+            ></a>
             <AiOutlineHome size={20} />
             <span className="pl-4">Home</span>
           </div>
