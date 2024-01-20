@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 // import AiOutlineMenu which is a hamburger style icon
-import { AiOutlineMenu, AiOutlineHome } from "react-icons/ai";
+import {
+  AiOutlineMenu,
+  AiOutlineHome,
+  AiOutlineProject,
+  AiOutlineMail,
+} from "react-icons/ai";
+import { BsPerson } from "react-icons/bs";
+import { GrProjects } from "react-icons/gr";
 
 function Sidenav() {
   // state variable = nav, setNav updates the function of nav variable, initial value of nav is set to false
@@ -40,7 +47,7 @@ function Sidenav() {
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
-              <AiOutlineHome size={20} />
+              <GrProjects size={20} />
               <span className="pl-4">Work</span>
             </a>
             <a
@@ -48,7 +55,7 @@ function Sidenav() {
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
-              <AiOutlineHome size={20} />
+              <AiOutlineProject size={20} />
               <span className="pl-4">Projects</span>
             </a>
             <a
@@ -56,7 +63,7 @@ function Sidenav() {
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
-              <AiOutlineHome size={20} />
+              <BsPerson size={20} />
               <span className="pl-4">Resume</span>
             </a>
             <a
@@ -64,7 +71,7 @@ function Sidenav() {
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
-              <AiOutlineHome size={20} />
+              <AiOutlineMail size={20} />
               <span className="pl-4">Contact</span>
             </a>
           </div>
