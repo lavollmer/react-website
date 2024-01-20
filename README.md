@@ -2,6 +2,18 @@
 
 ## Project Description
 
+## Technical Requirements
+
+Technical requirements of the project include the following:
+
+- ReactJS
+- CSS
+- HTML
+- TailwindCSS
+- Unsplash
+- React-icons
+- React Type Animation
+
 ## Credits
 
 Youtube Video inspiration: https://www.youtube.com/watch?v=22CxRxryQFE
