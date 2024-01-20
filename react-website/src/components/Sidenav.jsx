@@ -46,7 +46,7 @@ function Sidenav() {
               href="#main"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
+              {/* GrProjects icon from React icons with a size of 20 pixels */}
               <GrProjects size={20} />
               <span className="pl-4">Work</span>
             </a>
@@ -54,7 +54,7 @@ function Sidenav() {
               href="#main"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
+              {/* AiOutlineProject icon from React icons with a size of 20 pixels */}
               <AiOutlineProject size={20} />
               <span className="pl-4">Projects</span>
             </a>
@@ -62,7 +62,7 @@ function Sidenav() {
               href="#main"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
+              {/* BsPerson icon from React icons with a size of 20 pixels */}
               <BsPerson size={20} />
               <span className="pl-4">Resume</span>
             </a>
@@ -70,13 +70,13 @@ function Sidenav() {
               href="#main"
               className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
-              {/* AiOutlineHome icon from React icons with a size of 20 pixels */}
+              {/* AiOutlineMail icon from React icons with a size of 20 pixels */}
               <AiOutlineMail size={20} />
               <span className="pl-4">Contact</span>
             </a>
           </div>
         ) : (
-          <div></div>
+          ""
         )}
       </div>
     </>
