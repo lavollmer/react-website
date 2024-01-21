@@ -31,7 +31,7 @@ const Work = () => {
     // md:pl-20 sets the left padding of the element to 20px on medium-sized screens and above
     //py-16 sets the vertical padding to 16px on all sides (tailwind applies property to top and bottom)
     <div id="Work" className="max-width-[1040px] m-auto md:pl-20 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#3D304C]">Work</h1>
+      <h1 className="text-4xl font-bold text-center text-[#141B38]">Work</h1>
       {/* map function on the data array -> iterates over each item in the array and returns a new array of WorkItem component */}
       {/* map function takes 2 callback parameters (item and idx), for each item in the data array */}
       {data.map((item, idx) => (
