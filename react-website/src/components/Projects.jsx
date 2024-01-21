@@ -17,10 +17,10 @@ const Projects = () => {
         Eaque error molestias hic.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem />
-        <ProjectItem />
-        <ProjectItem />
-        <ProjectItem />
+        <ProjectItem img={giftifyImg} title="Giftify App" />
+        <ProjectItem img={murderymysteryImg} title="Robot Murder Mystery App" />
+        <ProjectItem img={reactwebsiteImg} title="React Website App" />
+        {/* <ProjectItem img={} title='Placeholder App'/> */}
       </div>
     </div>
   );
